@@ -24,16 +24,20 @@ Installation on Linux
 Install Docker with the following command:
 
 ```
-wget -qO- https://get.docker.com/ | sh
+$ wget -qO- https://get.docker.com/ | sh
 ```
 
 to see if docker was installed type: 
 
-`docker`
+```
+$ docker
+```
 
 To see if the sample docker image was loaded and executed type:
 
-`sudo docker run hello-world`
+```
+$ sudo docker run hello-world
+```
 
 If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
 
@@ -44,11 +48,15 @@ Docker images can be downloaded from [Docker Hub](https://hub.docker.com). We ca
 
 To run sample image type:
 
-`sudo docker run docker/whalesay cowsay boo`
+```
+$ sudo docker run docker/whalesay cowsay boo
+```
 
 To see installed images type:
 
-`sudo docker images`
+```
+$ sudo docker images
+```
 
 Creating Docker image
 ---------------------
@@ -63,7 +71,9 @@ CMD /usr/games/fortune -a | cowsay
 
 Build docker image with the following command:
 
-`sudo docker build -t docker-whale .`
+```
+$ sudo docker build -t docker-whale .
+```
 
 There's period **.** in the end and `docker-whale` is name of created docker image.
 
@@ -74,13 +84,17 @@ Short description of commands:
 
 To verify is image is built, run:
 
-`sudo docker images`
+```
+$ sudo docker images
+```
 
 and check if `docker-whale` image is listed.
 
 To run image, type:
 
-`sudo docker run docker-whale`
+```
+$ sudo docker run docker-whale
+```
 
 Pushing image to Docker Hub
 ----------------------------
@@ -89,7 +103,9 @@ Create account on [Docker Hub](https://hub.docker.com) and Create new repository
 
 List your images:
 
-`sudo docker images`
+```
+$ sudo docker images
+```
 
 You should see something like:
 
@@ -102,7 +118,9 @@ docker/whalesay     latest              fb434121fc77        4 months ago        
 
 Copy `IMAGE_ID` of your image and type (use your own login here):
 
-`sudo docker tag 30d13636f688 pwittchen/docker-whale:latest`
+```
+$ sudo docker tag 30d13636f688 pwittchen/docker-whale:latest
+```
 
 Type `sudo docker images` to see if your image is tagged.
 
@@ -117,12 +135,14 @@ docker/whalesay          latest              fb434121fc77        4 months ago   
 Login to Docker Hub with the following command:
 
 ```
-sudo docker login --username=yourhubusername --password=yourpassword --email=youremail@company.com
+$ sudo docker login --username=yourhubusername --password=yourpassword --email=youremail@company.com
 ```
 
 Push your image to Docker Hub with the command (use your own login here):
 
-`sudo docker push pwittchen/docker-whale`
+```
+$ sudo docker push pwittchen/docker-whale
+```
 
 Go to Docker Hub website and check if your image is there.
 
@@ -138,11 +158,15 @@ $ sudo docker rmi -f docker-whale
 
 Pull your image:
 
-`sudo docker pull pwittchen/docker-whale`
+```
+sudo docker pull pwittchen/docker-whale
+```
 
 Run your image:
 
-`sudo docker run pwittchen/docker-whale`
+```
+sudo docker run pwittchen/docker-whale
+```
 
 References
 ----------
