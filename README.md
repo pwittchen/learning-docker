@@ -15,6 +15,7 @@ Contents
 - [Docker images](#docker-images)
 - [Creating Docker image](#creating-docker-image)
 - [Pushing image to Docker Hub](#pushing-image-to-docker-Hub)
+- [Pulling image from Docker Hub](#pulling-image-from-docker-Hub)
 - [References](#references)
 
 Installation on Linux
@@ -82,7 +83,7 @@ To run image, type:
 `sudo docker run docker-whale`
 
 Pushing image to Docker Hub
----------------------------
+----------------------------
 
 Create account on [Docker Hub](https://hub.docker.com) and Create new repository named `docker-whale`
 
@@ -124,6 +125,24 @@ Push your image to Docker Hub with the command (use your own login here):
 `sudo docker push pwittchen/docker-whale`
 
 Go to Docker Hub website and check if your image is there.
+
+Pulling image from Docker Hub
+------------------------------
+
+Use docker rmi command to remove `docker-whale` and `pwittchen/docker-whale` iamges:
+
+```
+$ sudo docker rmi -f 30d13636f688
+$ sudo docker rmi -f docker-whale
+```
+
+Pull your image:
+
+`sudo docker pull pwittchen/docker-whale`
+
+Run your image:
+
+`sudo docker run pwittchen/docker-whale`
 
 References
 ----------
