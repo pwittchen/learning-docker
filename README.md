@@ -56,12 +56,16 @@ Build docker image with the following command:
 
 `docker build -t docker-whale .`
 
-There's period **.** in the end.
+There's period **.** in the end and `docker-whale` is name of created docker image.
 
 Short description of commands:
 - `FROM` keyword tells Docker which image your image is based on
 - `RUN` is used to install required software
 - `CMD` is used to run the software
+
+To verify is image is built, run:
+
+`docker images`
 
 References
 ----------
