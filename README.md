@@ -159,13 +159,13 @@ $ sudo docker rmi -f docker-whale
 Pull your image:
 
 ```
-sudo docker pull pwittchen/docker-whale
+$ sudo docker pull pwittchen/docker-whale
 ```
 
 Run your image:
 
 ```
-sudo docker run pwittchen/docker-whale
+$ sudo docker run pwittchen/docker-whale
 ```
 
 References
