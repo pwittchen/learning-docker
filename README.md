@@ -18,11 +18,28 @@ Install Docker with the following command:
 wget -qO- https://get.docker.com/ | sh
 ```
 
-Type: `docker` to see if docker was installed.
+to see if docker was installed type: 
 
-Type: `docker run hello-world` to see if the sample docker image was loaded and executed. 
+`docker`
+
+To see if the sample docker image was loaded and executed type:
+
+`docker run hello-world`
 
 If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
+
+Docker images
+-------------
+
+Docker images can be downloaded from [Docker Hub](https://hub.docker.com). We can search, download and run different images.
+
+To run sample image type:
+
+`sudo docker run docker/whalesay cowsay boo`
+
+To see installed images type:
+
+`sudo docker images`
 
 References
 ----------
