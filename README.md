@@ -19,7 +19,10 @@ wget -qO- https://get.docker.com/ | sh
 ```
 
 Type: `docker` to see if docker was installed.
-Type: `docker run hello-world` to see if the sample docker image was loaded and executed. If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
+
+Type: `docker run hello-world` to see if the sample docker image was loaded and executed. 
+
+If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
 
 References
 ----------
