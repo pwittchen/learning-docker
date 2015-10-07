@@ -82,7 +82,7 @@ Short description of commands:
 - `RUN` is used to install required software
 - `CMD` is used to run the software
 
-To verify is image is built, run:
+To verify whether image is built, run:
 
 ```
 $ sudo docker images
