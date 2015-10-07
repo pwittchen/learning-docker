@@ -73,6 +73,50 @@ To run image, type:
 
 `sudo docker run docker-whale`
 
+Pushing image to Docker Hub
+---------------------------
+
+Create account on [Docker Hub](https://hub.docker.com) and Create new repository named `docker-whale`
+
+List your images:
+
+`sudo docker images`
+
+You should see something like:
+
+```
+REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+docker-whale        latest              30d13636f688        8 minutes ago       274 MB
+hello-world         latest              af340544ed62        8 weeks ago         960 B
+docker/whalesay     latest              fb434121fc77        4 months ago        247 MB
+```
+
+Copy `IMAGE_ID` of your image and type (use your own login here):
+
+`sudo docker tag 30d13636f688 pwittchen/docker-whale:latest`
+
+Type `sudo docker images` to see if your image is tagged.
+
+```
+REPOSITORY               TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+docker-whale             latest              30d13636f688        9 minutes ago       274 MB
+pwittchen/docker-whale   latest              30d13636f688        9 minutes ago       274 MB
+hello-world              latest              af340544ed62        8 weeks ago         960 B
+docker/whalesay          latest              fb434121fc77        4 months ago        247 MB
+```
+
+Login to Docker Hub with the following command:
+
+```
+sudo docker login --username=yourhubusername --password=yourpassword --email=youremail@company.com
+```
+
+Push your image to Docker Hub with the command (use your own login here):
+
+`sudo docker push pwittchen/docker-whale`
+
+Go to Docker Hub website and check if your image is there.
+
 References
 ----------
 - [Docker website](https://www.docker.com/)
