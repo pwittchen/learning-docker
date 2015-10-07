@@ -14,8 +14,8 @@ Contents
 - [Installation on Linux](#installation-on-linux)
 - [Docker images](#docker-images)
 - [Creating Docker image](#creating-docker-image)
-- [Pushing image to Docker Hub](#pushing-image-to-docker-Hub)
-- [Pulling image from Docker Hub](#pulling-image-from-docker-Hub)
+- [Pushing image to Docker Hub](#pushing-image-to-docker-hub)
+- [Pulling image from Docker Hub](#pulling-image-from-docker-hub)
 - [References](#references)
 
 Installation on Linux
