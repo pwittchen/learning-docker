@@ -9,6 +9,14 @@ A *container* is a stripped-to-basics version of a Linux operating system. An *i
 
 [docs.docker.com](http://docs.docker.com)
 
+Contents
+--------
+- [Installation on Linux](#installation-on-linux)
+- [Docker images](#docker-images)
+- [Creating Docker image](#creating-docker-image)
+- [Pushing image to Docker Hub](#pushing-image-to-docker-Hub)
+- [References](#references)
+
 Installation on Linux
 ---------------------
 
@@ -28,8 +36,8 @@ To see if the sample docker image was loaded and executed type:
 
 If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
 
-Docker images on Docker Hub
----------------------------
+Docker images
+-------------
 
 Docker images can be downloaded from [Docker Hub](https://hub.docker.com). We can search, download and run different images.
 
