@@ -69,6 +69,10 @@ To verify is image is built, run:
 
 and check if `docker-whale` image is listed.
 
+To run image, type:
+
+`sudo docker run docker-whale`
+
 References
 ----------
 - [Docker website](https://www.docker.com/)
