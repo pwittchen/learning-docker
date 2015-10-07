@@ -24,7 +24,7 @@ to see if docker was installed type:
 
 To see if the sample docker image was loaded and executed type:
 
-`docker run hello-world`
+`sudo docker run hello-world`
 
 If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
 
@@ -54,7 +54,7 @@ CMD /usr/games/fortune -a | cowsay
 
 Build docker image with the following command:
 
-`docker build -t docker-whale .`
+`sudo docker build -t docker-whale .`
 
 There's period **.** in the end and `docker-whale` is name of created docker image.
 
@@ -65,7 +65,9 @@ Short description of commands:
 
 To verify is image is built, run:
 
-`docker images`
+`sudo docker images`
+
+and check if `docker-whale` image is listed.
 
 References
 ----------
