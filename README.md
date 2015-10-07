@@ -171,6 +171,7 @@ $ sudo docker run pwittchen/docker-whale
 References
 ----------
 - [Docker website](https://www.docker.com/)
+- [Docker Hub](https://hub.docker.com/)
 - [Docker documentation](https://docs.docker.com/)
 - [Getting started with Docker on Linux](http://docs.docker.com/linux/started/)
-- [Docker Hub](https://hub.docker.com/)
+- [Learning more about Docker](http://docs.docker.com/linux/last_page/)
