@@ -28,8 +28,8 @@ To see if the sample docker image was loaded and executed type:
 
 If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
 
-Docker images
--------------
+Docker images on Docker Hub
+---------------------------
 
 Docker images can be downloaded from [Docker Hub](https://hub.docker.com). We can search, download and run different images.
 
@@ -40,6 +40,28 @@ To run sample image type:
 To see installed images type:
 
 `sudo docker images`
+
+Creating Docker image
+---------------------
+
+In a separate directory create file named `Dockerfile` with the following content:
+
+```
+FROM docker/whalesay:latest
+RUN apt-get -y update && apt-get install -y fortunes
+CMD /usr/games/fortune -a | cowsay
+```
+
+Build docker image with the following command:
+
+`docker build -t docker-whale .`
+
+There's period **.** in the end.
+
+Short description of commands:
+- `FROM` keyword tells Docker which image your image is based on
+- `RUN` is used to install required software
+- `CMD` is used to run the software
 
 References
 ----------
