@@ -29,7 +29,7 @@ Install Docker with the following command:
 $ wget -qO- https://get.docker.com/ | sh
 ```
 
-to see if docker was installed type: 
+to see if docker was installed type:
 
 ```
 $ docker
@@ -207,8 +207,8 @@ Sample Dockerfiles
 ------------------
 
 `dockerfiles` directory contains sample Docker configurations.
-- `whalesaydocker` - hello world sample from tutorial
-- `javadocker` - ubuntu container with java and related tools
+- `whalesay` - hello world sample with cowsay and fortune script from tutorial
+- `ubuntujava` - ubuntu container with java and related tools
 
 References
 ----------
