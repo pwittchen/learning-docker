@@ -17,6 +17,7 @@ Contents
 - [Creating Docker image](#creating-docker-image)
 - [Pushing image to Docker Hub](#pushing-image-to-docker-hub)
 - [Pulling image from Docker Hub](#pulling-image-from-docker-hub)
+- [Sample Dockerfiles](#sample-dockerfiles)
 - [References](#references)
 
 Installation on Linux
@@ -201,6 +202,13 @@ Run your image:
 ```
 $ sudo docker run pwittchen/docker-whale
 ```
+
+Sample Dockerfiles
+------------------
+
+`dockerfiles` directory contains sample Docker configurations.
+- `hellodocker` - hello world sample from tutorial
+- `javadocker` - ubuntu container with java and related tools
 
 References
 ----------
