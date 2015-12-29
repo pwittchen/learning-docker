@@ -12,6 +12,7 @@ A *container* is a stripped-to-basics version of a Linux operating system. An *i
 Contents
 --------
 - [Installation on Linux](#installation-on-linux)
+- [Installation on OS X](#installation-on-os-x)
 - [Docker images](#docker-images)
 - [Creating Docker image](#creating-docker-image)
 - [Pushing image to Docker Hub](#pushing-image-to-docker-hub)
