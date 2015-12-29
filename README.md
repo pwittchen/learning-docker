@@ -207,7 +207,7 @@ Sample Dockerfiles
 ------------------
 
 `dockerfiles` directory contains sample Docker configurations.
-- `hellodocker` - hello world sample from tutorial
+- `whalesaydocker` - hello world sample from tutorial
 - `javadocker` - ubuntu container with java and related tools
 
 References
