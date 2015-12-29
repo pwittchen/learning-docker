@@ -41,6 +41,39 @@ $ sudo docker run hello-world
 
 If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
 
+Installation on OS X
+--------------------
+
+Install Homebrew and then:
+
+```
+$ brew install cask
+$ brew cask install virtualbox
+$ brew install docker
+$ brew install boot2docker
+$ boot2docker init
+$ boot2docker up
+```
+
+After running `boot2docker up`, you'll see instructions, which will show you, what to do to finish installation.
+You can add the following variables to your `.zshrc` or `.bashrc` file:
+
+```
+export DOCKER_HOST=tcp://YOUR_IP:2376
+export DOCKER_CERT_PATH=/Users/YOUR_USER_ID/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+```
+
+If everything is fine, you can start Ubuntu shell as follows:
+
+```
+docker run -i -t ubuntu /bin/bash
+```
+
+Use `Ctrl+D` to exit.
+
+For more details, read this article: http://penandpants.com/2014/03/09/docker-via-homebrew/
+
 Docker images
 -------------
 
@@ -175,3 +208,4 @@ References
 - [Docker documentation](https://docs.docker.com/)
 - [Getting started with Docker on Linux](http://docs.docker.com/linux/started/)
 - [Learning more about Docker](http://docs.docker.com/linux/last_page/)
+- [Installing Docker on Mac OS X via Homebrew](http://penandpants.com/2014/03/09/docker-via-homebrew/)
