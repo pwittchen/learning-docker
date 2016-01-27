@@ -210,6 +210,8 @@ Sample Dockerfiles
 - `whalesay` - hello world sample with cowsay and fortune script from tutorial
 - `ubuntujava` - ubuntu container with java and related tools
 
+You can use `Makefile` located in each directory to build, run and clean (remove) Docker image defined in `Dockerfile`.
+
 References
 ----------
 - [Docker website](https://www.docker.com/)
