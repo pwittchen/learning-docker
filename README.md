@@ -43,6 +43,8 @@ $ sudo docker run hello-world
 
 If everything works, you should see `Hello from Docker` message and some other stuff. It means Docker was installer properly.
 
+There's also another tutorial showing Docker installation at: https://docs.docker.com/engine/installation/linux/ubuntulinux/
+
 Installation on OS X
 --------------------
 
