@@ -46,6 +46,16 @@ If everything works, you should see `Hello from Docker` message and some other s
 Installation on OS X
 --------------------
 
+### Docker Toolbox
+
+**Update!**
+
+On OS X we can also use [Docker Toolbox](https://www.docker.com/toolbox), which provides all functionality and Docker installation "out-of-the-box". Tutorial showing, how to install and run it is available at: https://getcarina.com/docs/tutorials/docker-install-mac/.
+
+**Note**: For me it didn't work with iTerm. I needed to use default terminal available in OS X.
+
+### Manual installation
+
 Install Homebrew and then:
 
 ```
