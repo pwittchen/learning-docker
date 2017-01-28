@@ -50,6 +50,10 @@ Installation on OS X
 
 ### Docker Toolbox
 
+**NEW Update!**
+
+Now, we can simple install [Docker for Mac](https://docs.docker.com/docker-for-mac/) on macOS and it works out of the box.
+
 **Update!**
 
 On OS X we can also use [Docker Toolbox](https://www.docker.com/toolbox), which provides all functionality and Docker installation "out-of-the-box". Tutorial showing, how to install and run it is available at: https://getcarina.com/docs/tutorials/docker-install-mac/.
