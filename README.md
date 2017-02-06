@@ -240,3 +240,4 @@ References
 - [Getting started with Docker on Linux](http://docs.docker.com/linux/started/)
 - [Learning more about Docker](http://docs.docker.com/linux/last_page/)
 - [Installing Docker on Mac OS X via Homebrew](http://penandpants.com/2014/03/09/docker-via-homebrew/)
+- [Various Dockerfiles](https://github.com/jessfraz/dockerfiles)
