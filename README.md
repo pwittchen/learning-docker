@@ -242,3 +242,4 @@ References
 - [Installing Docker on Mac OS X via Homebrew](http://penandpants.com/2014/03/09/docker-via-homebrew/)
 - [Various Dockerfiles](https://github.com/jessfraz/dockerfiles)
 - [Docker Cheat Sheet](https://github.com/eon01/DockerCheatSheet)
+- [Docker for Java developers](https://github.com/docker/labs/tree/master/developer-tools/java)
